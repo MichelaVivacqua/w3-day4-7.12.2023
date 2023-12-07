@@ -1,0 +1,44 @@
+main {
+  background-image: url(https://media.istockphoto.com/id/1348081963/it/foto/sfondo-rosso-natalizio-con-rami-di-abete-e-decorazioni.jpg?s=612x612&w=0&k=20&c=8RqSIJkUY6zE1YkaFudS1NlZOeDlDE7c9xGkJQ5o0Z8=);
+  background-repeat: no-repeat;
+  background-color: #f44c4b;
+}
+
+body {
+  width: 100%;
+}
+header h1 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 100px;
+}
+header h4 {
+  color: white;
+  font-size: 1.8em;
+  text-align: center;
+}
+h3 {
+  color: white;
+  border: 1px solid white;
+  font-size: 3em;
+  font-weight: 100;
+  display: inline-block;
+  width: 65px;
+}
+div {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+nav {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.highlight {
+  font-weight: 900;
+  color: yellow;
+}
