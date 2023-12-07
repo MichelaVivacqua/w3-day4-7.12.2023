@@ -40,5 +40,6 @@ nav {
 
 .highlight {
   font-weight: 900;
-  color: yellow;
+  color: red;
+  background-color: lightcoral;
 }

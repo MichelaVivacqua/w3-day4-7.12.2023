@@ -12,13 +12,12 @@ celleTombola();
 document.getElementById("randomButton").addEventListener("click", function () {
   let randomNumber = Math.floor(Math.random() * 76) + 1;
   document.getElementById("randomNumber").innerText = randomNumber;
+  for (let i = 0; i < cells.length; i++) {
+    if (parseInt(cells[i].innerText) === randomNumber) {
+      cells[i].classList.add("highlight");
+    }
+  }
 });
 
 const tabellone = document.getElementById("tabellone");
 const cells = tabellone.getElementsByTagName("h3");
-
-for (let i = 0; i < cells.length; i++) {
-  if (parseInt(cells[i].innerText) === randomNumber) {
-    cells[i].classList.add("highlight");
-  }
-}
